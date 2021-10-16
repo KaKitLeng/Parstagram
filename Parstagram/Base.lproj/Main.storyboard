@@ -54,7 +54,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UDr-Bc-tyE"/>
-                                    <segue destination="cRa-SL-pAd" kind="presentation" identifier="loginSegue" id="iST-w2-AUa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7J-Jc-qRb">
@@ -75,6 +74,7 @@
                     <connections>
                         <outlet property="passwordField" destination="r6R-lS-by1" id="EpY-sV-XsB"/>
                         <outlet property="usernameField" destination="4BA-WH-fsn" id="wNT-87-g6u"/>
+                        <segue destination="cRa-SL-pAd" kind="presentation" identifier="loginSegue" id="0nA-HH-clv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -184,7 +184,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imi-z6-qbA">
                                 <rect key="frame" x="16" y="388" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sublmit"/>
+                                <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="onSubmitButton:" destination="zvA-5T-4kx" eventType="touchUpInside" id="Uod-7c-LHe"/>
                                 </connections>
