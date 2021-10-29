@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050E052F272C7C53005EB157 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E052E272C7C53005EB157 /* CommentCell.swift */; };
 		055930EB27189C9B002E9813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055930EA27189C9B002E9813 /* AppDelegate.swift */; };
 		055930ED27189C9B002E9813 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055930EC27189C9B002E9813 /* SceneDelegate.swift */; };
 		055930F227189C9B002E9813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055930F027189C9B002E9813 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050E052E272C7C53005EB157 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		055930E727189C9B002E9813 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055930EA27189C9B002E9813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		055930EC27189C9B002E9813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				0559311C2718B091002E9813 /* FeedViewController.swift */,
 				05C8C214271A217E00F53945 /* CameraViewController.swift */,
 				05C8C217271A352700F53945 /* PostCell.swift */,
+				050E052E272C7C53005EB157 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				0559311D2718B091002E9813 /* FeedViewController.swift in Sources */,
 				055930ED27189C9B002E9813 /* SceneDelegate.swift in Sources */,
 				05C8C218271A352700F53945 /* PostCell.swift in Sources */,
+				050E052F272C7C53005EB157 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
